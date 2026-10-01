@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Menu — Steak In</title>
+    <link rel="icon" href="img/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="menu">
+    <main class="wrap">
+      <div class="ph">
+        <span class="eyebrow">Sajian Kami</span>
+        <h1 class="logo-font">MENU</h1>
+        <div class="orn">✦</div>
+      </div>
+      <h2
+        style="
+          font: 600 22px var(--sf);
+          color: var(--gold2);
+          letter-spacing: 0.15em;
+          text-align: center;
+        "
+      >
+        PROMO SPESIAL
+      </h2>
+      <div class="promos" id="promo-list"></div>
+      <div class="tools"><div class="chips" id="category-chips"></div></div>
+      <div class="search">
+        <label class="search-box"
+          ><input
+            id="search-input"
+            type="search"
+            placeholder="Cari menu favorit Anda..."
+            aria-label="Cari menu" /><svg viewBox="0 0 24 24">
+            <circle cx="10" cy="10" r="6" />
+            <path d="M15 15l6 6" /></svg
+        ></label>
+      </div>
+      <div class="menu" id="menu-list"></div>
+    </main>
+    <script src="js/config.js"></script>
+    <script src="js/menu-data.js"></script>
+    <script src="js/promo-data.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/menu-page.js"></script>
+  </body>
+</html>
