@@ -1330,3 +1330,41 @@ footer img {
 }
 
 /* Tambahan */
+
+/* Tambahan 2 */
+@media (max-width: 480px) {
+  .nav .wrap {
+    height: auto;
+    min-height: 64px;
+    padding: 10px 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .nav img.lg {
+    height: 34px;
+    max-width: 100px;
+    object-fit: contain;
+  }
+
+  .cartbtn {
+    flex-shrink: 0;
+    margin-left: auto;
+    padding: 6px 9px;
+    font-size: 11px;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+
+  .links {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+  }
+}
+/* Tambahan 2 */
