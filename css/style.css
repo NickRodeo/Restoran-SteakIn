@@ -1313,3 +1313,20 @@ footer img {
     transform: scale(1);
   }
 }
+
+/* Tambahan */
+
+@media (max-width: 480px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    position: relative;
+  }
+}
+
+/* Tambahan */
