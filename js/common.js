@@ -185,7 +185,7 @@ function renderFooterAndCartUi() {
       <img src="img/logo.png" alt=""><br>
       Jalan Ahmad Yani No.17 • Jalan M. Sohor No. 57<br>
       @steak_in.official • 100% Halal<br>
-      <small>Website demo — pembayaran hanya simulasi</small>
+      <small>Website demo — Made by Raihan</small>
     </footer>
 
     <div class="ov" id="overlay"></div>

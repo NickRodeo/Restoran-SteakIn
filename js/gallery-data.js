@@ -13,9 +13,25 @@ const GALLERY_PHOTOS = [
     caption: "Makan Malam Hangat",
     tag: "SUASANA",
   },
-  { image: "", caption: "Ulang Tahun", tag: "ULANG TAHUN" },
-  { image: "", caption: "Gathering Kantor", tag: "EVENT" },
-  { image: "", caption: "Anniversary Dinner", tag: "MOMEN" },
-  { image: "", caption: "Arisan Keluarga", tag: "KELUARGA" },
-  { image: "", caption: "Reuni Alumni", tag: "EVENT" },
+  {
+    image: "img/gallery/default.png",
+    caption: "Ulang Tahun Sucipto",
+    tag: "ULANG TAHUN",
+  },
+  {
+    image: "img/gallery/default.png",
+    caption: "Gathering Kantor",
+    tag: "EVENT",
+  },
+  {
+    image: "img/gallery/default.png",
+    caption: "Anniversary Dinner",
+    tag: "MOMEN",
+  },
+  {
+    image: "img/gallery/default.png",
+    caption: "Arisan Keluarga",
+    tag: "KELUARGA",
+  },
+  { image: "img/gallery/default.png", caption: "Reuni Alumni", tag: "EVENT" },
 ];
